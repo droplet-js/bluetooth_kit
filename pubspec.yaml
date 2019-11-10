@@ -1,8 +1,8 @@
 name: bluetooth_kit
 description: A powerful bluetooth plugin for Flutter.
 version: 0.0.1
-author:
-homepage:
+author: v7lin <v7lin@qq.com>
+homepage: https://github.com/v7lin/bluetooth_kit
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
