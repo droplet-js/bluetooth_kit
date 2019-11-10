@@ -3,7 +3,7 @@
 @implementation BluetoothKitPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"bluetooth_kit"
+      methodChannelWithName:@"v7lin.github.io/bluetooth_kit"
             binaryMessenger:[registrar messenger]];
   BluetoothKitPlugin* instance = [[BluetoothKitPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

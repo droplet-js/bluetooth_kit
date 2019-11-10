@@ -10,7 +10,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 public class BluetoothKitPlugin implements MethodCallHandler {
   /** Plugin registration. */
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "bluetooth_kit");
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "v7lin.github.io/bluetooth_kit");
     channel.setMethodCallHandler(new BluetoothKitPlugin());
   }
 
